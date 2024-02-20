@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Como ativar o Wi-Fi no Windows</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            text-align: center;
+            background-color: beige;
+            padding-top: 50px;
+        }
+        h1 {
+            color: #333;
+            font-size: 72px;
+            margin-bottom: 30px;
+        }
+        p {
+            color: #666;
+            font-size: 20px;
+            margin-bottom: 20px;
+        }
+        ol {
+            text-align: left;
+            margin-left: auto;
+            margin-right: auto;
+            width: 50%;
+            padding-left: 0;
+        }
+        li {
+            color: #333;
+            font-size: 18px;
+            list-style-type: none;
+            margin-bottom: 30px; /* Espaçamento maior entre os passos */
+            text-align: left;
+        }
+        li:before {
+            content: "\2022";
+            color: #007bff;
+            display: inline-block;
+            width: 1em;
+            margin-left: -1em;
+        }
+        .network-icon,
+        .password-icon,
+        .third-image {
+            width: 400px;
+            margin-bottom: 20px; /* Espaçamento entre a imagem e o próximo passo */
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            cursor: pointer; /* Cursor de mão ao passar sobre a imagem */
+            transition: transform 0.3s ease; /* Transição suave */
+        }
+        .network-icon:hover,
+        .password-icon:hover,
+        .third-image:hover {
+            transform: scale(1.05); /* Aumenta em 5% quando o mouse passa por cima */
+        }
+    </style>
+</head>
+<body>
+    <h1>Como ativar o Wi-Fi no Windows?</h1>
+    <p>Aqui estão os passos para ativar o Wi-Fi no Windows:</p>
+    <ol>
+        <li>Primeiro, clique no ícone de rede no canto inferior direito da tela.</li>
+        <img src="https://images.wondershare.com/recoverit/article/2021/10/network-icon.PNG" alt="Ícone de Rede" class="network-icon" onclick="toggleFullScreen(this)">
+        <li>Em seguida, selecione a rede Wi-Fi desejada na lista disponível.</li>
+        <img src="https://i.ytimg.com/vi/f8PqpCQ_6BM/maxresdefault.jpg" alt="Ícone de Senha" class="password-icon" onclick="toggleFullScreen(this)">
+        <li>Por fim, insira a senha da rede Wi-Fi e clique em "Avançar".</li>
+        <img src="file:///C:/Users/Aluno/Downloads/wifi,%20como%20abilitar,%20site/Captura%20de%20Tela%20(33).png" alt="Terceira Imagem" class="third-image" onclick="toggleFullScreen(this)">
+<li>e pronto, assim facilmente voce habilita o wifi em sua maquina!!!</li>
+    </ol>
+
+    <script>
+        function toggleFullScreen(img) {
+            if (!document.fullscreenElement) {
+                img.requestFullscreen().catch(err => {
+                    console.error(`Erro ao tentar ativar o modo de tela cheia: ${err.message}`);
+                });
+            } else {
+                document.exitFullscreen();
+            }
+        }
+    </script>
+</body>
+</html>
