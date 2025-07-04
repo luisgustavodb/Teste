@@ -3,24 +3,24 @@
 
 
 import React, { useState, useEffect } from 'react';
-import Header from 'Header';
-import Footer from 'Footer';
-import Login from 'Login';
-import SignUp from 'SignUp';
-import Settings from 'Settings';
+import Header from './Header';
+import Footer from './Footer';
+import Login from './Login';
+import SignUp from './SignUp';
+import Settings from './Settings';
 
-import DashboardHero from 'DashboardHero';
-import DashboardStats from 'HowItWorks';
-import DashboardFeatures from 'Features';
-import Chat from 'Chat';
+import DashboardHero from './DashboardHero';
+import DashboardStats from './HowItWorks';
+import DashboardFeatures from './Features';
+import Chat from './Chat';
 
-import LandingHero from 'LandingHero';
-import LandingFeatures from 'LandingFeatures';
-import LandingHowItWorks from 'LandingHowItWorks';
-import SupportTypes from 'SupportTypes';
-import Testimonials from '.Testimonials';
-import FAQ from 'FAQ';
-import CTA from 'CTA';
+import LandingHero from './LandingHero';
+import LandingFeatures from './LandingFeatures';
+import LandingHowItWorks from './LandingHowItWorks';
+import SupportTypes from './SupportTypes';
+import Testimonials from './Testimonials';
+import FAQ from './FAQ';
+import CTA from './CTA';
 import { LogoIcon, MenuIcon, XIcon } from './constants';
 import { ChatSession } from './types';
 
